@@ -5,7 +5,7 @@ const categories = [
   {
     id: 1,
     name: 'Bed Sheets',
-    image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e6',
+    image: 'src="https://m.media-amazon.com/images/I/51siQ2pDNyL._AC_UL320_.jpg',
     description: 'Luxurious comfort for your perfect sleep'
   },
   {

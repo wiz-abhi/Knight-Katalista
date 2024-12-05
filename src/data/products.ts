@@ -5,8 +5,8 @@ export const bestSellingProducts: Product[] = [
     id: 1,
     name: 'Premium Egyptian Cotton Sheet Set',
     description: 'Luxurious 1000 thread count sheets for ultimate comfort',
-    price: 299.99,
-    image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e6',
+    price: 1899,
+    image: 'https://m.media-amazon.com/images/I/81OKjp4SKZL._AC_UL320_.jpg',
     category: 'sheets'
   },
   {
@@ -14,7 +14,7 @@ export const bestSellingProducts: Product[] = [
     name: 'Cloud Nine Down Pillow',
     description: 'Premium down filling for perfect neck support',
     price: 129.99,
-    image: 'https://images.unsplash.com/photo-1584100936771-dad84524fef7',
+    image: 'https://m.media-amazon.com/images/I/91RCGbPgUnL._AC_UL320_.jpg',
     category: 'pillows'
   },
   {
@@ -30,18 +30,15 @@ export const bestSellingProducts: Product[] = [
     name: 'Memory Foam Mattress Topper',
     description: 'Transform your mattress with premium comfort',
     price: 249.99,
-    image: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221',
+    image: 'https://m.media-amazon.com/images/I/71llW2j0nPL._AC_UL320_.jpg',
     category: 'mattress'
-  }
-];
-
-export const newArrivalsProducts: Product[] = [
+  },
   {
     id: 5,
     name: 'Silk Pillowcase Set',
     description: 'Pure mulberry silk for hair and skin care',
     price: 89.99,
-    image: 'https://images.unsplash.com/photo-1629585174139-46e833fe4054',
+    image: 'https://m.media-amazon.com/images/I/61tI1PdADhL._AC_UL320_.jpg',
     category: 'pillows'
   },
   {
@@ -49,7 +46,7 @@ export const newArrivalsProducts: Product[] = [
     name: 'Weighted Blanket',
     description: 'Calming comfort for better sleep',
     price: 179.99,
-    image: 'https://images.unsplash.com/photo-1584100936775-68f2103193f6',
+    image: 'https://m.media-amazon.com/images/I/913Tb1K+UEL._AC_UL320_.jpg',
     category: 'blankets'
   },
   {
@@ -57,15 +54,15 @@ export const newArrivalsProducts: Product[] = [
     name: 'Linen Sheet Set',
     description: 'Stonewashed pure linen for year-round comfort',
     price: 259.99,
-    image: 'https://images.unsplash.com/photo-1584100936778-72988c3f73d5',
-    category: 'sheets'
+    image: 'https://m.media-amazon.com/images/I/61yfZzhsgOL._AC_UL320_.jpg',
+    category: 'Duvets'
   },
   {
     id: 8,
     name: 'Alpaca Throw Blanket',
     description: 'Ultra-soft and lightweight luxury throw',
     price: 149.99,
-    image: 'https://images.unsplash.com/photo-1584100936779-f6f0c1f7c136',
-    category: 'blankets'
+    image: 'https://m.media-amazon.com/images/I/81OKjp4SKZL._AC_UL320_.jpg',
+    category: 'Sheets'
   }
 ];
