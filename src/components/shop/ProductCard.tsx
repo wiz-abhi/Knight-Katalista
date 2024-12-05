@@ -21,7 +21,7 @@ export function ProductCard({ product, onOpenDetails }: ProductCardProps) {
       </div>
       <h3 className="text-lg font-medium mb-2">{product.name}</h3>
       <p className="text-gray-600 mb-2">{product.description}</p>
-      <p className="text-xl font-semibold">${product.price}</p>
+      <p className="text-xl font-semibold">₹{product.price}</p>
     </div>
   );
 }
