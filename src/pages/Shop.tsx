@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { ProductCard } from '../components/shop/ProductCard';
 import { ProductModal } from '../components/shop/ProductModal';
 import { Footer } from '../components/layout/Footer';
-import { bestSellingProducts, newArrivalsProducts } from '../data/products';
+import { bestSellingProducts} from '../data/products';
 import { Product } from '../types';
 
-const allProducts = [...bestSellingProducts, ...newArrivalsProducts];
+const allProducts = [...bestSellingProducts];
 
 export function Shop() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
