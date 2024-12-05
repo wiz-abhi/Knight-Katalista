@@ -44,7 +44,7 @@ export function ProductModal({ product, onClose }: ProductModalProps) {
           <div>
             <h2 className="text-2xl font-bold mb-4">{product.name}</h2>
             <p className="text-gray-600 mb-6">{product.description}</p>
-            <p className="text-3xl font-bold mb-8">${product.price}</p>
+            <p className="text-3xl font-bold mb-8">₹{product.price}</p>
             
             <div className="space-y-4">
               <button 

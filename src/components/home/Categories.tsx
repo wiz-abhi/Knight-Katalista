@@ -5,13 +5,13 @@ const categories = [
   {
     id: 1,
     name: 'Bed Sheets',
-    image: 'src="https://m.media-amazon.com/images/I/51siQ2pDNyL._AC_UL320_.jpg',
+    image:'https://m.media-amazon.com/images/I/71b6WFSzKrL.AC_UL320.jpg',   
     description: 'Luxurious comfort for your perfect sleep'
   },
   {
     id: 2,
     name: 'Pillows',
-    image: 'https://images.unsplash.com/photo-1584100936771-dad84524fef7',
+    image: 'https://m.media-amazon.com/images/I/81ur63CrnNL.AC_UL320.jpg',
     description: 'Support and softness for peaceful nights'
   },
   {
