@@ -6,7 +6,7 @@ export function Hero() {
     <div className="relative h-screen">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af"
+          src="/hero.jpg"
           className="w-full h-full object-cover"
           alt="Luxury bedroom"
         />
