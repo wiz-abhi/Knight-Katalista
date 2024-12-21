@@ -6,6 +6,9 @@ import { Shop } from './pages/Shop';
 import { About } from './pages/About';
 import { Login } from './pages/Login';
 import { Signup } from './pages/Signup';
+import { Cart } from './pages/Cart';
+import { Checkout } from './pages/Checkout';
+import { OrderSuccess } from './pages/OrderSuccess';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/order-success" element={<OrderSuccess />} />
         </Routes>
       </div>
     </Router>

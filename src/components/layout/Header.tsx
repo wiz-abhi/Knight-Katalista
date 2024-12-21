@@ -64,8 +64,11 @@ export function Header() {
                 </a>
               </div>
             )}
-            <button className="p-2 hover:bg-gray-100 rounded-full">
-              <ShoppingCart className="h-6 w-6" />
+            <button className="p-2 hover:bg-gray-100 rounded-full">                
+              <a
+                  href="/cart">
+                  <ShoppingCart className="h-6 w-6" />
+              </a>
             </button>
             <button className="md:hidden p-2 hover:bg-gray-100 rounded-full">
               <Menu className="h-6 w-6" />
